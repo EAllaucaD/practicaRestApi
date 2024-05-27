@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "nombre": "Liverpool",
+        "fundacion": 1892,
+        "estadio": "Anfield",
+        "ciudad": "Liverpool"
+    },
+    {
+        "id": 2,
+        "nombre": "Chelsea",
+        "fundacion": 1905,
+        "estadio": "Stamford Bridge",
+        "ciudad": "Londres"
+    },
+    {
+        "id": 3,
+        "nombre": "Manchester United",
+        "fundacion": 1878,
+        "estadio": "Old Trafford",
+        "ciudad": "Manchester"
+    },
+    {
+        "id": 4,
+        "nombre": "Manchester City",
+        "fundacion": 1880,
+        "estadio": "Etihad Stadium",
+        "ciudad": "Manchester"
+    },
+    {
+        "id": 5,
+        "nombre": "Tottenham Hotspur",
+        "fundacion": 1882,
+        "estadio": "Tottenham Hotspur Stadium",
+        "ciudad": "Londres"
+    }
+]
