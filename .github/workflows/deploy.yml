@@ -41,4 +41,3 @@ jobs:
         working-directory: practicaRestApi
         env:
           RAILWAY_TOKEN: ${{secrets.APP}}
-       
