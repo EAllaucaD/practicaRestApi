@@ -40,4 +40,4 @@ jobs:
         run: railway up --service practicaRestApi
         working-directory: practicaRestApi
         env:
-         RAILWAY_TOKEN: ${{secrets.API_REST}}
+         RAILWAY_TOKEN: ${{secrets.GITHUB_TOKEN}}
