@@ -1,0 +1,13 @@
+[tools]
+nodejs = "16.6.0"
+
+[build]
+# Comandos que quieres ejecutar durante la etapa de construcción
+# Por ejemplo, instalar dependencias:
+commands = [
+  "npm install --omit=dev"
+]
+
+[start]
+# Comando para iniciar la aplicación
+cmd = "npm start"
