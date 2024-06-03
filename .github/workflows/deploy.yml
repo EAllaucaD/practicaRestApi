@@ -36,7 +36,7 @@ jobs:
       - name: List files for debugging before deploy
         run: ls -la
         working-directory: practicaRestApi
-      - name: Deploy  with Railway
+      - name: Deploy  App with Railway
         run: railway up --service practicaRestApi
         working-directory: practicaRestApi
         env:
