@@ -40,4 +40,5 @@ jobs:
         run: railway up --service practicaRestApi
         working-directory: practicaRestApi
         env:
-         RAILWAY_TOKEN: ${{ secrets.REST}}
+          RAILWAY_TOKEN: ${{secrets.APP}}
+       
