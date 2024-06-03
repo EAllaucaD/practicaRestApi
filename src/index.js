@@ -13,6 +13,9 @@ app.use(express.urlencoded({extended:false}));
 app.use(express.json());
 
 
+//
+app.use(express.static('public')); // Sirve archivos estáticos
+
 //Routes
 //app.use(require('./routes/index'));
 app.use('/api/teams',require('./routes/teams'));

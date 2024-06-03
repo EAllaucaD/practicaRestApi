@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teams Soccer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Football Teams</h1>
+    
+    <div id="teams-container"></div>
+    
+    <h2>Add Team</h2>
+    <form id="add-team-form">
+        <input type="text" id="name" placeholder="Name" required>
+        <input type="number" id="foundation" placeholder="Foundation Year" required>
+        <input type="text" id="stadium" placeholder="Stadium" required>
+        <input type="text" id="city" placeholder="City" required>
+        <button type="submit">Add Team</button>
+    </form>
+    
+    <h2>Delete Team</h2>
+    <form id="delete-team-form">
+        <input type="number" id="team-id" placeholder="Team ID" required>
+        <button type="submit">Delete Team</button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
